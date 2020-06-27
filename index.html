@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Hangman Game</title>
+        <link rel="stylesheet" href="main.css">
+        <style>
+            p{
+                color: black;
+            }
+            #2
+            {
+                color: blue
+            }
+        </style>
+    </head>
+    <body>
+        
+        
+        <div>
+            <p id="1" style="color: yellow">one </p>
+        </div>
+        <p id='2'>two</p>
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="container">
+            
+            <!-- game information -->
+            <div class="game-info">
+               <div  class="game-name"> hangman</div>
+                <div class="category">
+                word from :<span>  </span>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <div class="row">
+                <!-- hangman draw -->
+                <div class="hangman-draw">
+                    <div class="the-draw">
+                        <div class="the-stand"></div>
+                        <div class="the-hang"></div>
+                        <div class="the-rope"></div>
+                        <div class="the-man">
+                            <div class="head"></div>
+                            <div class="body"></div>
+                            <div class="hands"></div>
+                            <div class="legs"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- hangman letters -->
+                <div class="letters"></div>
+            </div>
+            
+            <hr>
+            
+            <div class="letters-guess"></div>
+            <audio id="wrong">
+                <source src="Wrong%20Buzzer%20-%20Sound%20Effect(MP3_128K)%20(mp3cut.net).mp3">
+            </audio>
+            <audio id="right">
+                <source src="THATS%20RIGHT_%20%20Sound%20Effect(MP3_70K).mp3">
+            </audio>
+            <audio id="fail">
+                <source src="FAIL%20SOUND%20EFFECT(MP3_70K).mp3">
+            </audio>
+            
+            
+            
+            
+    
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+</html>
